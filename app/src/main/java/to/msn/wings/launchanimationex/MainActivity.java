@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //リソース→ビットマップ
+    //ライザップ→リバウンド
     public static Bitmap res2bmp(Context context,int resID){
         return BitmapFactory.decodeResource(
                 context.getResources(),resID);
